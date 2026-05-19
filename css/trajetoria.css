@@ -72,3 +72,30 @@
     font-size: 0.95rem;
     color: #bbb;
 }
+
+@media (max-width: 768px) {
+    .container-trajetoria::after {
+        left: 31px;
+    }
+
+    .timeline-item {
+        width: 100% !important;
+        left: 0 !important;
+        padding-left: 70px !important;
+        padding-right: 20px !important;
+        text-align: left !important;
+    }
+
+    .timeline-item::after {
+        left: 20px !important;
+        right: auto !important;
+    }
+
+    .right {
+        left: 0 !important;
+    }
+
+    .right::after {
+        left: 20px !important;
+    }
+}

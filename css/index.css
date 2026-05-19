@@ -54,3 +54,22 @@ h2 {
     color: #d2b48c;
     font-weight: bold;
 }
+
+@media (max-width: 768px) {
+    .hero {
+        height: auto;
+        padding: 60px 20px;
+    }
+
+    .hero h1 {
+        font-size: 1.8rem;
+        padding: 10px 15px;
+        width: 100%;
+        max-width: 90%;
+        word-wrap: break-word;
+    }
+
+    .content-box {
+        padding: 20px;
+    }
+}
